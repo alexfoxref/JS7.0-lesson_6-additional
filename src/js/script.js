@@ -31,7 +31,7 @@ let strButAct = 'linear-gradient(336deg,#ffbd75,#ff964b),linear-gradient(#fff,#f
 
 let strAlf = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя',
     arrCodes = [],
-    strNum = '0123456789',
+    strNum = '0123456789.',
     arrNums = [];
 
 for (let i = 0; i < strAlf.length; i++) {
@@ -64,7 +64,7 @@ for (let i = 1; i < expensesInputs.length; i = i + 2) {
         for (let j = 0; j < value.length; j++) {
             if (!~arrNums.indexOf(value[j].charCodeAt())) {
                 expensesInputs[i].value = value.slice(0, j);
-                expensesValue.textContent = 'Введите числа';
+                expensesValue.textContent = 'Введите числа с десятичной точкой';
             } else {
                 expensesValue.textContent = '';
             }
