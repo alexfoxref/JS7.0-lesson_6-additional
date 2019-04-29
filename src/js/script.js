@@ -25,7 +25,7 @@ const start = document.getElementById('start'),
 let money,
     time;
 
-let strButAct = 'linear-gradient(336deg,#ffbd75,#ff964b),linear-gradient(#fff,#fff)',
+let strButAct = 'linear-gradient(336deg, #9375ff, #4a30aa), linear-gradient(#fff, #fff)',
     strButNA = 'linear-gradient(336deg,#acacac,#797979),linear-gradient(#fff,#fff)';
 
 
